@@ -1,0 +1,39 @@
+{
+  "name": "prior-testnet-auto-bot",
+  "version": "1.0.0",
+  "description": "Automated bot for interacting with Prior Protocol's testnet on Base Sepolia",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airdropinsiders/Prior-Testnet-Auto-Bot.git"
+  },
+  "keywords": [
+    "prior",
+    "protocol",
+    "testnet",
+    "bot",
+    "base",
+    "sepolia",
+    "airdrop",
+    "cryptocurrency"
+  ],
+  "author": "Airdrop Insiders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airdropinsiders/Prior-Testnet-Auto-Bot/issues"
+  },
+  "homepage": "https://github.com/airdropinsiders/Prior-Testnet-Auto-Bot#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "https-proxy-agent": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
